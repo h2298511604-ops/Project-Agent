@@ -1,0 +1,22 @@
+# ===== 密钥 / 本地配置（不要提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 日志 / 运行产物 =====
+*.log
+Tools/save_note.txt
